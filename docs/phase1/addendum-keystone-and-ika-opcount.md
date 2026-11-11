@@ -75,3 +75,12 @@ Ika gives two places where the device can be the authority:
 - For EVM and Bitcoin ECDSA the user share stays in the companion in the first hardware revision, and moves onto the device if the benchmark later shows acceptable times.
 
 With the hybrid, the processor no longer blocks the schematic: STM32U5G9 is sufficient, and gate G1 becomes a later upgrade question instead of a blocker. The cost is that ECDSA chains depend on Ika's network enforcing the capability, which is weaker than the brief's intent and must be stated plainly in the product's security claims.
+
+## 5. Decision (2026-11-11)
+
+The hybrid was accepted by the project owner. Consequences:
+
+- Main MCU is STM32U5G9 (TFBGA-216 variant STM32U5G9NJH6Q). Gate G1 no longer blocks the schematic.
+- First hardware revision: device holds the capability key for all chains and the user share for Solana, Sui and Taproot. For EVM and Bitcoin ECDSA the user share is in the companion app.
+- Security claims for ECDSA chains must state that they rely on Ika's network enforcing the capability.
+- G1 stays open as an upgrade question: if measured ECDSA time on the device is acceptable, the share moves onto the device in firmware, with no hardware change.
