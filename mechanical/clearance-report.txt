@@ -1,0 +1,15 @@
+Envelope: 60.0 x 94.0 x 12.3 mm
+
+Z stack (mm from rear face):
+  rear cover        0.0 - 1.2
+  NFC coil+ferrite  1.2 - 1.6
+  battery           1.6 - 7.4  (+0.4 swell gap)
+  PCB               3.0 - 4.0  (top-side clearance 3.8, bottom-side 1.4)
+  mid-plate         7.8 - 8.4
+  LCD               8.4 - 10.7
+  cover lens        10.7 - 12.3
+
+Interference check (common volume > 0.01 mm3):
+  none
+
+Volumes (cm3): front_housing 9.76, rear_cover 6.75

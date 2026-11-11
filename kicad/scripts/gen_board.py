@@ -67,7 +67,7 @@ place("Connector_USB", "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
       value="USB4105-GF-A (candidate)")
 place("Connector", "Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical", "J2", xs + STRIP / 2, 66, value="SWD TC2030-NL")
 # Fit check only: working-assumption MCU package (not selected; see gate G1)
-place("Package_BGA", "TFBGA-216_13x13mm_Layout15x15_P0.8mm", "U1", xs + STRIP / 2, 40,
+place("Package_BGA", "TFBGA-216_13x13mm_Layout15x15_P0.8mm", "U1", xs + STRIP / 2, 32,
       value="STM32U5G9NJHxQ (fit check, not selected)")
 
 def rule_area(name, x0, y0, x1, y1):
