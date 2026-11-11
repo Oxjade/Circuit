@@ -9,7 +9,7 @@ Standalone touchscreen hardware wallet built on Ika dWallet / 2PC-MPC signing.
 | 1 — Hardware architecture | Draft for review: [docs/phase1/hardware-architecture.md](docs/phase1/hardware-architecture.md), [placement concept](docs/phase1/placement-concept.svg) |
 | 2 — Industrial design | Not started |
 | 3 — Component selection | MCU decided: STM32U5G9 (hybrid architecture accepted). Other parts proposed, pending datasheet verification |
-| 4 — Electrical | Complete draft schematic, nine sheets, 127 parts: [hardware/README.md](hardware/README.md). Not reviewed; ten open items listed there |
+| 4 — Electrical | Complete draft schematic, nine sheets, 127 parts: [kicad/README.md](kicad/README.md). Not reviewed; ten open items listed there |
 | 5 — PCB | Provisional board outline only. No placement, no routing |
 | 6–8 | Not started |
 

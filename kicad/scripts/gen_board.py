@@ -2,7 +2,7 @@
 """Generate the provisional Circuit board definition (outline, layers, holes, keep-outs).
 
 Run: python3 scripts/gen_board.py   (needs KiCad 7 'pcbnew' Python module)
-Re-running overwrites circuit/circuit.kicad_pcb. Do NOT run once routing has started.
+Re-running overwrites circuit.kicad_pcb. Do NOT run once routing has started.
 All dimensions come from docs/phase1 estimates and are provisional until Phase 2 CAD.
 """
 import math, os, pcbnew
@@ -95,6 +95,6 @@ note("CIRCUIT main board - PROVISIONAL DEFINITION, NOT FOR FABRICATION\n"
      "No routing before schematic review (project rule 4).", 0, -9, 1.2)
 note("Buttons on this edge\n(side-push, TBD)", W + 2, 30, 1.0)
 
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "circuit", "circuit.kicad_pcb")
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "circuit.kicad_pcb")
 pcbnew.SaveBoard(os.path.normpath(out), board)
 print("wrote", os.path.normpath(out))

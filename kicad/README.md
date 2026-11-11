@@ -1,16 +1,16 @@
-# Circuit hardware (KiCad 7)
+# Circuit KiCad project (KiCad 7)
 
-Open `circuit/circuit.kicad_pro` in KiCad 7.0 or later.
+Open `circuit.kicad_pro` in KiCad 7.0 or later.
 
 ## What exists
 
 | File | Content | State |
 |---|---|---|
-| `circuit/circuit.kicad_sch` + 8 sub-sheets | Complete draft schematic, 127 parts, 105 nets | Draft, not reviewed |
+| `circuit.kicad_sch` + 8 sub-sheets | Complete draft schematic, 127 parts, 105 nets | Draft, not reviewed |
 | `schematic-draft.pdf` | PDF of all nine sheets | — |
 | `bom-draft.csv` | Parts list grouped by value and footprint | Draft |
-| `circuit/circuit.kicad_sym` | Project symbol library (OPTIGA Trust M) | — |
-| `circuit/circuit.kicad_pcb` | Board definition only: outline, layers, holes, USB-C, debug pads, MCU fit check | Provisional. Not yet synchronised with the schematic. No routing |
+| `circuit.kicad_sym` | Project symbol library (OPTIGA Trust M) | — |
+| `circuit.kicad_pcb` | Board definition only: outline, layers, holes, USB-C, debug pads, MCU fit check | Provisional. Not yet synchronised with the schematic. No routing |
 | `scripts/` | `gen_schematic.py` + `schgen.py` build the sheets from library symbols and check them against KiCad's netlist export; `gen_board.py` builds the board definition | Stop using a generator once its output is hand-edited |
 
 ## Sheets and parts as drawn

@@ -2,13 +2,13 @@
 """Generate the Circuit schematic sheets that can be drawn from vetted KiCad library pinouts.
 
 Run: python3 scripts/gen_schematic.py   (KiCad 7 libraries must be installed)
-Overwrites circuit/*.kicad_sch. Stop using this once sheets are edited by hand in KiCad.
+Overwrites ../*.kicad_sch. Stop using this once sheets are edited by hand in KiCad.
 Component VALUES are engineering defaults and must be checked against datasheets.
 """
 import os, subprocess, sys, tempfile
 import schgen as g
 
-OUT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "circuit"))
+OUT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 prj = g.Project(OUT, "A0-draft")
 
 # ---------------------------------------------------------------- sheet 2: USB-C input
