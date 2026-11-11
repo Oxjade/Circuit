@@ -15,4 +15,5 @@ Standalone touchscreen hardware wallet built on Ika dWallet / 2PC-MPC signing.
 ## Open gates
 
 - **G1:** measure Ika user-side ECDSA sign and DKG on STM32U5G9 and STM32N657 dev kits. Decides the processor.
+- **Architecture decision:** capability-only, share-on-device, or hybrid. See [addendum](docs/phase1/addendum-keystone-and-ika-opcount.md). The hybrid would unblock the processor choice.
 - **Datasheet pass:** component figures in Phase 1 came from search extracts, not from opened datasheets.
