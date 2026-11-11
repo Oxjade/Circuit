@@ -115,6 +115,38 @@ def prop(sym, key):
     return ""
 
 
+def custom(name, left, right, footprint="", ref="U"):
+    """Define a rectangular symbol in the project library 'circuit'. left/right: [(number, pin name), ...]."""
+    rows = max(len(left), len(right))
+    h = rows * 2.54 + 2.54
+    w = 10.16
+    top = round(h / 2 - 2.54, 2)
+    def eff(): return ["effects", ["font", ["size", 1.27, 1.27]]]
+    pins = []
+    for side, lst in (("L", left), ("R", right)):
+        for i, (num, pname) in enumerate(lst):
+            y = round(top - i * 2.54, 2)
+            x, a = (-w - 2.54, 0) if side == "L" else (w + 2.54, 180)
+            pins.append(["pin", "passive", "line", ["at", x, y, a], ["length", 2.54],
+                         ["name", S(pname), eff()], ["number", S(str(num)), eff()]])
+    sym = ["symbol", S(name), ["in_bom", "yes"], ["on_board", "yes"],
+           ["property", S("Reference"), S(ref), ["at", -w, h / 2 + 1.27, 0], eff()],
+           ["property", S("Value"), S(name), ["at", -w, h / 2 + 3.5, 0], eff()],
+           ["property", S("Footprint"), S(footprint), ["at", 0, 0, 0], eff() + ["hide"]],
+           ["property", S("Datasheet"), S(""), ["at", 0, 0, 0], eff() + ["hide"]],
+           ["symbol", S(name + "_0_1"), ["rectangle", ["start", -w, round(h / 2, 2)], ["end", w, round(-h / 2, 2)],
+                                          ["stroke", ["width", 0.254], ["type", "default"]], ["fill", ["type", "background"]]]],
+           ["symbol", S(name + "_1_1")] + pins]
+    _libs.setdefault("circuit", ["kicad_symbol_lib", ["version", 20220914], ["generator", "circuit_schgen"]]).append(sym)
+
+
+def write_custom_lib(outdir):
+    if "circuit" in _libs:
+        open(os.path.join(outdir, "circuit.kicad_sym"), "w").write(dump(_libs["circuit"]) + "\n")
+        open(os.path.join(outdir, "sym-lib-table"), "w").write(
+            '(sym_lib_table\n  (lib (name "circuit")(type "KiCad")(uri "${KIPRJMOD}/circuit.kicad_sym")(options "")(descr "Circuit project symbols"))\n)\n')
+
+
 OUT = {0: (-1, 0, 180), 180: (1, 0, 0), 90: (0, 1, 270), 270: (0, -1, 90)}   # pin angle -> stub dx, dy, label angle
 ROT = {"down": {(0, 1): 0, (1, 0): 90, (0, -1): 180, (-1, 0): 270},
        "up": {(0, -1): 0, (-1, 0): 90, (0, 1): 180, (1, 0): 270}}

@@ -9198,65 +9198,13 @@
     (at 356.82 121.02)
     (uuid 1764eeeb-b61b-541c-9761-bfc1a03a61ee)
   )
-  (wire
-    (pts
-      (xy 356.82 303.9)
-      (xy 354.28 303.9)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
+  (no_connect
+    (at 356.82 303.9)
     (uuid 3084320e-63f7-5d00-92b5-257182ead650)
   )
-  (global_label "EN_3V3_NFC"
-    (shape passive)
-    (at 354.28 303.9 180)
-    (effects
-      (font
-        (size 1.27 1.27)
-      )
-      (justify right)
-    )
+  (no_connect
+    (at 356.82 301.36)
     (uuid 8e6bea37-e543-560e-b4d9-7c06c49ac86f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        ) hide
-      )
-    )
-  )
-  (wire
-    (pts
-      (xy 356.82 301.36)
-      (xy 354.28 301.36)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid 2cd8cb9b-14e5-5729-849d-8f2c817d1a43)
-  )
-  (global_label "EN_3V3_HAPT"
-    (shape passive)
-    (at 354.28 301.36 180)
-    (effects
-      (font
-        (size 1.27 1.27)
-      )
-      (justify right)
-    )
-    (uuid e42349fe-179e-5862-8d7a-b384c47833da)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}"
-      (at 0 0 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        ) hide
-      )
-    )
   )
   (wire
     (pts
@@ -9267,7 +9215,7 @@
       (width 0)
       (type default)
     )
-    (uuid 8d68c5ff-997a-5448-8d49-b27792a0148d)
+    (uuid 2cd8cb9b-14e5-5729-849d-8f2c817d1a43)
   )
   (symbol
     (lib_id "power:GND")
@@ -9276,7 +9224,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 11796910-68ea-58bf-8d7c-83a59a33a9e2)
+    (uuid ef20d7de-8a3c-5768-b6e3-e4b489b0a653)
     (property "Reference" "#PWR0413"
       (at 356.82 102.03999999999999 0)
       (effects
@@ -9312,7 +9260,7 @@
       )
     )
     (pin "1"
-      (uuid 295f1691-92fd-5b8d-a2bc-1d8ea5ace576)
+      (uuid e93c8995-efa9-5696-baae-c730adb17f7e)
     )
     (instances
       (project "circuit"
@@ -9332,7 +9280,7 @@
       (width 0)
       (type default)
     )
-    (uuid 5b66fbd4-3fe5-59c2-9c43-7edb3c19e127)
+    (uuid 327c0c58-6a71-5a67-bdca-5be244016f45)
   )
   (symbol
     (lib_id "power:GND")
@@ -9341,7 +9289,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 980259cc-0cfe-54f9-ad7b-20905e218a75)
+    (uuid 5738fb2c-cd91-5452-b745-d4846fc7a7f6)
     (property "Reference" "#PWR0414"
       (at 402.54 343.34000000000003 0)
       (effects
@@ -9377,7 +9325,7 @@
       )
     )
     (pin "1"
-      (uuid b959f6bf-d140-573c-b948-c65ff3853019)
+      (uuid 808448bd-26fd-5bf8-8d6e-aeb657493d7a)
     )
     (instances
       (project "circuit"
@@ -9390,7 +9338,7 @@
   )
   (no_connect
     (at 356.82 319.14)
-    (uuid 1c5de23c-6fa4-5b33-b019-07f0a994b0f7)
+    (uuid f4fabbe6-405b-547a-945d-284b711bd2ac)
   )
   (wire
     (pts
@@ -9401,7 +9349,7 @@
       (width 0)
       (type default)
     )
-    (uuid 7877ac83-ef65-5a9c-8e16-906a0e4fa79f)
+    (uuid 8778a84b-72c2-565c-ba6e-bc3a950386a0)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -9410,7 +9358,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 2dee653b-ab48-5bd3-9fd5-e6a1ab626ae2)
+    (uuid 725a3f78-2b2b-59a0-b297-7c81276172e7)
     (property "Reference" "#PWR0415"
       (at 402.54 81.72 0)
       (effects
@@ -9446,7 +9394,7 @@
       )
     )
     (pin "1"
-      (uuid 46ad4f02-f64c-5a44-ab38-cc32e4c4ab35)
+      (uuid 2a698247-1ac7-5b99-9a8f-657f2f756940)
     )
     (instances
       (project "circuit"
@@ -9466,7 +9414,7 @@
       (width 0)
       (type default)
     )
-    (uuid 20e87fab-fb14-52aa-928b-21b531fb0330)
+    (uuid 55b9fcdd-7c0c-5584-8028-469407997630)
   )
   (global_label "LCD_R6"
     (shape passive)
@@ -9477,7 +9425,7 @@
       )
       (justify left)
     )
-    (uuid 5431d751-38cb-500f-a664-15c3a188a929)
+    (uuid 9c1643ab-fd35-5817-bec7-5fec7c095206)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9489,27 +9437,53 @@
   )
   (no_connect
     (at 356.82 232.78)
-    (uuid aff61130-3f2c-5541-8db4-1f0bcad4afae)
+    (uuid 20e87fab-fb14-52aa-928b-21b531fb0330)
   )
   (no_connect
     (at 356.82 235.32)
-    (uuid 1a61dff2-9089-57cd-b5a6-81068e7531fc)
+    (uuid 5431d751-38cb-500f-a664-15c3a188a929)
   )
   (no_connect
     (at 356.82 240.4)
-    (uuid f1f2cf66-4bf3-528f-95c6-be5fc5d23913)
+    (uuid aff61130-3f2c-5541-8db4-1f0bcad4afae)
   )
-  (no_connect
-    (at 356.82 306.44)
-    (uuid 7283f541-6bb5-55a7-8f1d-8e9c75c3c62a)
+  (wire
+    (pts
+      (xy 356.82 306.44)
+      (xy 354.28 306.44)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid 1a61dff2-9089-57cd-b5a6-81068e7531fc)
+  )
+  (global_label "CHG_EN1"
+    (shape passive)
+    (at 354.28 306.44 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid f1f2cf66-4bf3-528f-95c6-be5fc5d23913)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        ) hide
+      )
+    )
   )
   (no_connect
     (at 356.82 311.52)
-    (uuid 17e0f2e4-7796-53b2-9988-a2eb6d33d4da)
+    (uuid 7283f541-6bb5-55a7-8f1d-8e9c75c3c62a)
   )
   (no_connect
     (at 356.82 316.6)
-    (uuid ca581351-35d2-5e74-8913-f035532f7200)
+    (uuid 17e0f2e4-7796-53b2-9988-a2eb6d33d4da)
   )
   (wire
     (pts
@@ -9520,7 +9494,7 @@
       (width 0)
       (type default)
     )
-    (uuid f56b0c32-961d-544e-83f8-f9a894970dc0)
+    (uuid ca581351-35d2-5e74-8913-f035532f7200)
   )
   (global_label "+3V3A"
     (shape passive)
@@ -9531,7 +9505,7 @@
       )
       (justify right)
     )
-    (uuid fc971620-a1f4-56c6-8273-f0c6ceee4832)
+    (uuid f56b0c32-961d-544e-83f8-f9a894970dc0)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9550,7 +9524,7 @@
       (width 0)
       (type default)
     )
-    (uuid 64cf0859-43d4-5a91-9f22-df7d6962f714)
+    (uuid fc971620-a1f4-56c6-8273-f0c6ceee4832)
   )
   (global_label "+3V3A"
     (shape passive)
@@ -9561,7 +9535,7 @@
       )
       (justify left)
     )
-    (uuid 13e31f82-156f-59c6-b870-99237235d0a4)
+    (uuid 64cf0859-43d4-5a91-9f22-df7d6962f714)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9580,7 +9554,7 @@
       (width 0)
       (type default)
     )
-    (uuid ab863958-88fe-5e4b-9927-f368d9c4f1df)
+    (uuid 13e31f82-156f-59c6-b870-99237235d0a4)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -9589,7 +9563,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 34a28a2b-d420-5a97-99e4-d6ef858fe20b)
+    (uuid 07a064f3-49a5-5a33-a204-a5e56e80510f)
     (property "Reference" "#PWR0416"
       (at 394.92 81.72 0)
       (effects
@@ -9625,7 +9599,7 @@
       )
     )
     (pin "1"
-      (uuid 9ee2bfaf-d57b-5984-a099-6e6b9b1f60a5)
+      (uuid 016f307c-5044-5570-ae33-00189f77659f)
     )
     (instances
       (project "circuit"
@@ -9645,7 +9619,7 @@
       (width 0)
       (type default)
     )
-    (uuid a7320cdc-3a52-530e-ba55-3653b6c1c8a0)
+    (uuid 61a42a90-f231-50c5-bd17-0d9543b4e2f8)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -9654,7 +9628,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid b277b5c8-6c60-5ce0-81dd-93dc2c9cdf70)
+    (uuid 5ee91dc6-e7b0-50e2-a8b7-a242e7860506)
     (property "Reference" "#PWR0417"
       (at 397.46000000000004 81.72 0)
       (effects
@@ -9690,7 +9664,7 @@
       )
     )
     (pin "1"
-      (uuid e79924f9-487b-5024-af5c-34e6d7a83cb3)
+      (uuid 774e7646-b6b0-5aa5-8ffd-5c4bf8efd1f9)
     )
     (instances
       (project "circuit"
@@ -9710,7 +9684,7 @@
       (width 0)
       (type default)
     )
-    (uuid ff03abc5-d6a4-5bb2-beb3-0b2c0a0b3ca0)
+    (uuid 65fb7b8f-9858-54ea-bedd-7f0131a019e8)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -9719,7 +9693,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 735fda20-9155-5ab2-9153-0dd738815512)
+    (uuid 36f74965-299d-5a51-9eeb-b448aa4f845b)
     (property "Reference" "#PWR0418"
       (at 400.0 81.72 0)
       (effects
@@ -9755,7 +9729,7 @@
       )
     )
     (pin "1"
-      (uuid 56414975-5218-5e5b-935b-56208d1e6e33)
+      (uuid 7731990f-aa95-591d-af47-93a4b55177c6)
     )
     (instances
       (project "circuit"
@@ -9775,7 +9749,7 @@
       (width 0)
       (type default)
     )
-    (uuid abf2a5fd-a6e2-5123-aa73-4f57b8f2c373)
+    (uuid f1a9a99a-3035-5644-bd4b-b2e2df5dc2c9)
   )
   (global_label "I2C_SYS_SDA"
     (shape passive)
@@ -9786,7 +9760,7 @@
       )
       (justify left)
     )
-    (uuid 0ad210d8-a02c-5f2b-a1be-cb938f41aa6f)
+    (uuid abf2a5fd-a6e2-5123-aa73-4f57b8f2c373)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9805,7 +9779,7 @@
       (width 0)
       (type default)
     )
-    (uuid 4e5c7b89-a766-50a6-a19e-a94dc167ccc3)
+    (uuid 0ad210d8-a02c-5f2b-a1be-cb938f41aa6f)
   )
   (global_label "I2C_SE_SDA"
     (shape passive)
@@ -9816,7 +9790,7 @@
       )
       (justify left)
     )
-    (uuid 4959e360-9d5f-5e6f-8ebb-51b02d1f4bca)
+    (uuid 4e5c7b89-a766-50a6-a19e-a94dc167ccc3)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9835,7 +9809,7 @@
       (width 0)
       (type default)
     )
-    (uuid 229b9ba9-a59f-5761-a421-50a8d1fa2dfb)
+    (uuid 4959e360-9d5f-5e6f-8ebb-51b02d1f4bca)
   )
   (global_label "SE_RST_N"
     (shape passive)
@@ -9846,7 +9820,7 @@
       )
       (justify left)
     )
-    (uuid a4941b80-f4b7-5ac5-a5b1-2195813af3e3)
+    (uuid 229b9ba9-a59f-5761-a421-50a8d1fa2dfb)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9858,7 +9832,7 @@
   )
   (no_connect
     (at 445.72 169.28)
-    (uuid c0930a2a-a4e9-54a8-a6d4-7d5bc43a32b3)
+    (uuid a4941b80-f4b7-5ac5-a5b1-2195813af3e3)
   )
   (wire
     (pts
@@ -9869,7 +9843,7 @@
       (width 0)
       (type default)
     )
-    (uuid fe5507de-e195-501d-9589-78bc32d94633)
+    (uuid c0930a2a-a4e9-54a8-a6d4-7d5bc43a32b3)
   )
   (global_label "LCD_R7"
     (shape passive)
@@ -9880,7 +9854,7 @@
       )
       (justify left)
     )
-    (uuid f1fc754a-1e13-5ada-8743-de17ed460718)
+    (uuid fe5507de-e195-501d-9589-78bc32d94633)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -9892,15 +9866,41 @@
   )
   (no_connect
     (at 356.82 230.24)
-    (uuid b7047efc-89d6-5552-98ad-cc8befad4944)
+    (uuid f1fc754a-1e13-5ada-8743-de17ed460718)
   )
   (no_connect
     (at 356.82 237.86)
+    (uuid b7047efc-89d6-5552-98ad-cc8befad4944)
+  )
+  (wire
+    (pts
+      (xy 356.82 308.98)
+      (xy 354.28 308.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
     (uuid b4281e75-420a-564a-b77f-5aafb2e4afd3)
   )
-  (no_connect
-    (at 356.82 308.98)
+  (global_label "CHG_EN2"
+    (shape passive)
+    (at 354.28 308.98 180)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
     (uuid 10424601-2109-5b7a-bf7f-43c8703a92b4)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        ) hide
+      )
+    )
   )
   (no_connect
     (at 356.82 314.06)
@@ -10704,7 +10704,7 @@
     )
     (uuid d8cba447-290a-5602-ae06-84f041e0cf7e)
   )
-  (global_label "VBAT_SENSE_EN"
+  (global_label "CHG_PGOOD_N"
     (shape passive)
     (at 448.26 192.14 0)
     (effects
@@ -10927,7 +10927,7 @@
     )
     (uuid 11b4514f-7735-548e-bf76-f0dfa5cb8360)
   )
-  (global_label "CHG_INT_N"
+  (global_label "CHG_STAT_N"
     (shape passive)
     (at 448.26 174.36 0)
     (effects
@@ -17160,7 +17160,7 @@
       )
     )
   )
-  (text "Shared pull-ups for the three I2C buses (values default)"
+  (text "I2C pull-ups (touch bus pulls to the switched LCD rail so it cannot back-power the panel)"
     (at 200 275 0)
     (effects
       (font
@@ -17238,57 +17238,22 @@
     )
     (uuid 6459b319-4600-574d-b697-fcc2bf0bc8ec)
   )
-  (symbol
-    (lib_id "power:+3V3")
-    (at 205.0 293.65 0)
-    (unit 1)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid 76723c56-98b4-5163-b1f0-563de860a16c)
-    (property "Reference" "#PWR0471"
-      (at 207.54 292.45 0)
+  (global_label "+3V3_LCD"
+    (shape passive)
+    (at 205.0 293.65 90)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid 4e055617-fd92-57f4-ab28-bd59c79ddea9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 0 0 0)
       (effects
         (font
           (size 1.27 1.27)
         ) hide
-        (justify left)
-      )
-    )
-    (property "Value" "+3V3"
-      (at 207.54 294.65 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-        (justify left)
-      )
-    )
-    (property "Footprint" ""
-      (at 205.0 293.65 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        ) hide
-      )
-    )
-    (property "Datasheet" ""
-      (at 205.0 293.65 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        ) hide
-      )
-    )
-    (pin "1"
-      (uuid 04378b18-1d0c-532e-b78d-525722b8f41f)
-    )
-    (instances
-      (project "circuit"
-        (path "/8d7f136a-9b08-51e6-bfd0-d57554352498/79ab5759-42a1-51f1-8ad9-d8fb171f94f2"
-          (reference "#PWR0471")
-          (unit 1)
-        )
       )
     )
   )
@@ -17301,7 +17266,7 @@
       (width 0)
       (type default)
     )
-    (uuid 8291ea20-f3fa-5d65-8067-0b38321bde87)
+    (uuid cd184463-6dcc-5edf-a574-5234ca5bae5e)
   )
   (global_label "I2C_TP_SCL"
     (shape passive)
@@ -17312,7 +17277,7 @@
       )
       (justify right)
     )
-    (uuid 3289bdb4-073e-52cd-b116-169ce9c35edd)
+    (uuid 8291ea20-f3fa-5d65-8067-0b38321bde87)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -17329,7 +17294,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid a107bf84-0a56-5e33-adea-172b5f14bd28)
+    (uuid c95aed79-e5be-5bd9-9dda-f15c0ba604c8)
     (property "Reference" "R24"
       (at 229.54 298.8 0)
       (effects
@@ -17365,10 +17330,10 @@
       )
     )
     (pin "1"
-      (uuid 145a0a43-d5c1-55d3-a776-fbbf0ce78be7)
+      (uuid 28f3b69b-8d15-5a16-9a25-a6e3af4d3680)
     )
     (pin "2"
-      (uuid 9c54febd-b3e1-5bf9-b43d-12ead3096062)
+      (uuid 36eb3217-940f-543a-ade8-45cd80b6c391)
     )
     (instances
       (project "circuit"
@@ -17388,59 +17353,24 @@
       (width 0)
       (type default)
     )
-    (uuid 551d9a0b-8aaf-5e28-bd54-27f5513d6789)
+    (uuid e4af77f4-abc1-5eb7-b84d-72916a195faa)
   )
-  (symbol
-    (lib_id "power:+3V3")
-    (at 227.0 293.65 0)
-    (unit 1)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid 48c86cb7-665b-58c0-91e5-42c4c1f45ac1)
-    (property "Reference" "#PWR0472"
-      (at 229.54 292.45 0)
+  (global_label "+3V3_LCD"
+    (shape passive)
+    (at 227.0 293.65 90)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid 551d9a0b-8aaf-5e28-bd54-27f5513d6789)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 0 0 0)
       (effects
         (font
           (size 1.27 1.27)
         ) hide
-        (justify left)
-      )
-    )
-    (property "Value" "+3V3"
-      (at 229.54 294.65 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        )
-        (justify left)
-      )
-    )
-    (property "Footprint" ""
-      (at 227.0 293.65 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        ) hide
-      )
-    )
-    (property "Datasheet" ""
-      (at 227.0 293.65 0)
-      (effects
-        (font
-          (size 1.27 1.27)
-        ) hide
-      )
-    )
-    (pin "1"
-      (uuid d764987d-69da-5a12-ac42-b9544841b2de)
-    )
-    (instances
-      (project "circuit"
-        (path "/8d7f136a-9b08-51e6-bfd0-d57554352498/79ab5759-42a1-51f1-8ad9-d8fb171f94f2"
-          (reference "#PWR0472")
-          (unit 1)
-        )
       )
     )
   )
@@ -17453,7 +17383,7 @@
       (width 0)
       (type default)
     )
-    (uuid 73af3f33-b7ee-593b-b222-5ceefcb27faf)
+    (uuid 85e8029d-148b-5a13-9581-c44381460bcf)
   )
   (global_label "I2C_TP_SDA"
     (shape passive)
@@ -17464,7 +17394,7 @@
       )
       (justify right)
     )
-    (uuid 56512ae7-481c-5af5-980c-c3f856ea76b5)
+    (uuid 057ec6c7-71f8-5380-81b2-37733ec12f8e)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -17481,7 +17411,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 6a1d118e-1944-5bf7-b7c6-0176004e6f1b)
+    (uuid 0d01d9bf-60bf-5b62-8f29-25c495a4a88a)
     (property "Reference" "R25"
       (at 251.54 298.8 0)
       (effects
@@ -17517,10 +17447,10 @@
       )
     )
     (pin "1"
-      (uuid 0753a2f8-735e-58ed-870a-1b69553c0343)
+      (uuid a9002913-5d71-5126-b794-670eabf1be34)
     )
     (pin "2"
-      (uuid bb3d8997-35ed-5466-b994-c14ac1627989)
+      (uuid 5cce9d76-7c70-5a33-9608-079009812266)
     )
     (instances
       (project "circuit"
@@ -17540,7 +17470,7 @@
       (width 0)
       (type default)
     )
-    (uuid d8d8afd9-3461-5bb7-8838-6badf72eb5e5)
+    (uuid 2acc5c66-d01d-5821-8ed6-410faa3c9f19)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -17549,8 +17479,8 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid f27de268-acc4-5d42-af19-89272d2a01c2)
-    (property "Reference" "#PWR0473"
+    (uuid 549e5497-84d9-55a4-82ef-d7037f1692e0)
+    (property "Reference" "#PWR0471"
       (at 251.54 292.45 0)
       (effects
         (font
@@ -17585,12 +17515,12 @@
       )
     )
     (pin "1"
-      (uuid d14b92c6-5237-575e-bde2-6f16bb36681e)
+      (uuid 9e17ae8b-e33b-5a02-9118-96bdc4fa5796)
     )
     (instances
       (project "circuit"
         (path "/8d7f136a-9b08-51e6-bfd0-d57554352498/79ab5759-42a1-51f1-8ad9-d8fb171f94f2"
-          (reference "#PWR0473")
+          (reference "#PWR0471")
           (unit 1)
         )
       )
@@ -17605,7 +17535,7 @@
       (width 0)
       (type default)
     )
-    (uuid 2039513a-28d3-570b-9a82-8215aee183ea)
+    (uuid 6cc65b23-e428-5f30-afc3-45166d0ea038)
   )
   (global_label "I2C_SE_SCL"
     (shape passive)
@@ -17616,7 +17546,7 @@
       )
       (justify right)
     )
-    (uuid 6228fe86-547d-50e6-ab29-895b7cb76647)
+    (uuid cb64a1d5-5f2a-5a58-a4c4-f64dfde3aa1b)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -17633,7 +17563,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 465eb074-0dc6-55da-89e1-3a3c452044bb)
+    (uuid ce3cd2ed-d8cb-5079-b42b-748fb384f2f1)
     (property "Reference" "R26"
       (at 273.54 298.8 0)
       (effects
@@ -17669,10 +17599,10 @@
       )
     )
     (pin "1"
-      (uuid 8e474431-bae8-571e-8d4c-fccb1e9f960d)
+      (uuid cec43a74-9f83-516e-a3ea-69e81f82ff07)
     )
     (pin "2"
-      (uuid 10b0c352-d7b7-5986-92fb-8473214e0db4)
+      (uuid 6241005b-0759-5b35-99b9-f6391a525acb)
     )
     (instances
       (project "circuit"
@@ -17692,7 +17622,7 @@
       (width 0)
       (type default)
     )
-    (uuid ea853010-3371-5c24-a15e-c79838d7b6b1)
+    (uuid 49d21df8-8f43-5d03-b65c-61d702486742)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -17701,8 +17631,8 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 7d61ee8c-9190-50e1-bbe1-dad06e6cf491)
-    (property "Reference" "#PWR0474"
+    (uuid 2c452451-3d65-5a2d-ac9d-9bbb1fba1dd7)
+    (property "Reference" "#PWR0472"
       (at 273.54 292.45 0)
       (effects
         (font
@@ -17737,12 +17667,12 @@
       )
     )
     (pin "1"
-      (uuid e8d5ab84-f568-5b81-b983-04267b4e5000)
+      (uuid 0373433c-13f0-55e6-87f0-49b30425005c)
     )
     (instances
       (project "circuit"
         (path "/8d7f136a-9b08-51e6-bfd0-d57554352498/79ab5759-42a1-51f1-8ad9-d8fb171f94f2"
-          (reference "#PWR0474")
+          (reference "#PWR0472")
           (unit 1)
         )
       )
@@ -17757,7 +17687,7 @@
       (width 0)
       (type default)
     )
-    (uuid 44388d95-db1a-50a7-97f0-c55f2c10ba88)
+    (uuid ee9d1e41-cb5a-5e42-8998-2f5a2cbb79f0)
   )
   (global_label "I2C_SE_SDA"
     (shape passive)
@@ -17768,7 +17698,7 @@
       )
       (justify right)
     )
-    (uuid 899c5662-3dba-5b03-866b-11a71d7a0764)
+    (uuid e04d9402-e596-50cd-a7ab-52cd58124deb)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -17785,7 +17715,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 52e0770b-348a-592d-b165-1d1df51c5708)
+    (uuid d03176e6-b40a-59fa-8a9b-f87811951b00)
     (property "Reference" "R27"
       (at 295.54 298.8 0)
       (effects
@@ -17821,10 +17751,10 @@
       )
     )
     (pin "1"
-      (uuid 4c11aa7e-8c01-53fb-9f55-bd33476dfa4b)
+      (uuid 27dbc589-a290-5678-a9b6-e924a59f347a)
     )
     (pin "2"
-      (uuid 22973407-1eac-5966-8bdf-6dcf2d79db39)
+      (uuid f220990a-a59c-5122-a4c1-d0c585a5943e)
     )
     (instances
       (project "circuit"
@@ -17844,7 +17774,7 @@
       (width 0)
       (type default)
     )
-    (uuid 0765fdda-beb0-5f1c-a671-bbcac5414af8)
+    (uuid f0d0389a-f88d-5381-8d60-dde83fc4211b)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -17853,8 +17783,8 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 10ff8fcd-b0a9-53f3-8819-34acb994341f)
-    (property "Reference" "#PWR0475"
+    (uuid 53b79394-87f3-55f1-8a8a-4acb992ae265)
+    (property "Reference" "#PWR0473"
       (at 295.54 292.45 0)
       (effects
         (font
@@ -17889,12 +17819,12 @@
       )
     )
     (pin "1"
-      (uuid a9f7192f-71f1-5171-8c46-3f1beab6c223)
+      (uuid 7f14eb2f-5e0d-5fde-bd55-45a1c9781a09)
     )
     (instances
       (project "circuit"
         (path "/8d7f136a-9b08-51e6-bfd0-d57554352498/79ab5759-42a1-51f1-8ad9-d8fb171f94f2"
-          (reference "#PWR0475")
+          (reference "#PWR0473")
           (unit 1)
         )
       )
@@ -17909,7 +17839,7 @@
       (width 0)
       (type default)
     )
-    (uuid 4a3bcc61-1a81-58c8-a7e7-0e44090341b5)
+    (uuid cdc7f189-0fdc-579c-9a37-a7aeeba82d78)
   )
   (global_label "I2C_SYS_SCL"
     (shape passive)
@@ -17920,7 +17850,7 @@
       )
       (justify right)
     )
-    (uuid 8a20a4a1-9ab1-5a9c-9e63-74c937c7c42e)
+    (uuid 6dca6c8d-b44e-50e0-b0f9-208c89a8ad15)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
@@ -17937,7 +17867,7 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid fdfbfb8d-7e4b-558d-b119-be4e6d6cd2ec)
+    (uuid 2cf61d7f-7b35-573b-9c68-2b4fb63b2489)
     (property "Reference" "R28"
       (at 317.54 298.8 0)
       (effects
@@ -17973,10 +17903,10 @@
       )
     )
     (pin "1"
-      (uuid dd00e629-cf8f-56ce-8a18-2cbc13a449ed)
+      (uuid f1a67b10-74e4-597d-b43b-7b35e001bd77)
     )
     (pin "2"
-      (uuid 2a414f24-8528-5062-bd4b-4516744557e9)
+      (uuid 1f15e05b-ba0a-50d8-8a86-efb9206639dd)
     )
     (instances
       (project "circuit"
@@ -17996,7 +17926,7 @@
       (width 0)
       (type default)
     )
-    (uuid 539cbc75-5d23-5e19-957c-598bcbd378a4)
+    (uuid e3607ed5-59de-5d0e-a479-db226c6531fe)
   )
   (symbol
     (lib_id "power:+3V3")
@@ -18005,8 +17935,8 @@
     (in_bom yes)
     (on_board yes)
     (dnp no)
-    (uuid 22d82d6a-ab03-5389-b319-8beb5461db21)
-    (property "Reference" "#PWR0476"
+    (uuid 3d7e57db-1c5e-5e5a-9583-0ba998256278)
+    (property "Reference" "#PWR0474"
       (at 317.54 292.45 0)
       (effects
         (font
@@ -18041,12 +17971,12 @@
       )
     )
     (pin "1"
-      (uuid 21913cbb-46dd-5e6a-9c6b-0d9ee0200578)
+      (uuid 5528a67b-495d-59f5-a4c9-d4678c3308ac)
     )
     (instances
       (project "circuit"
         (path "/8d7f136a-9b08-51e6-bfd0-d57554352498/79ab5759-42a1-51f1-8ad9-d8fb171f94f2"
-          (reference "#PWR0476")
+          (reference "#PWR0474")
           (unit 1)
         )
       )
@@ -18061,7 +17991,7 @@
       (width 0)
       (type default)
     )
-    (uuid 38063f93-fc9f-5ac8-978c-03e145bf25a3)
+    (uuid ff7176f4-0b37-5e93-a63a-1909185a8a54)
   )
   (global_label "I2C_SYS_SDA"
     (shape passive)
@@ -18072,7 +18002,7 @@
       )
       (justify right)
     )
-    (uuid 208a1663-2284-580d-b1e6-0988e4ec5ac3)
+    (uuid 5a0b020a-6e35-522a-ac2b-acb9ebbe6a3f)
     (property "Intersheetrefs" "${INTERSHEET_REFS}"
       (at 0 0 0)
       (effects
