@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Helvetica, Arial, sans-serif" font-size="11">
+  <rect width="1000" height="700" fill="#ffffff"/>
+  <text x="40" y="24" font-size="15" font-weight="bold" fill="#111">Circuit — internal placement concept (Phase 1, not a CAD drawing)</text>
+  <text x="40" y="42" fill="#555">View from the front with the display removed. Scale 6 px = 1 mm. Envelope 60 x 94 mm is an estimate driven by a 54.4 x 86.2 mm 3.5" panel.</text>
+
+  <!-- enclosure -->
+  <rect x="40" y="60" width="360" height="564" rx="24" fill="#e9ecef" stroke="#222" stroke-width="2"/>
+  <!-- PCB (frame shape) -->
+  <path d="M52 72 H388 V612 H52 Z M58 162 V558 H286 V162 Z" fill="#2f7d4f" fill-rule="evenodd" stroke="#1d4f32"/>
+  <!-- battery -->
+  <rect x="64" y="169" width="216" height="381" rx="6" fill="#c9ced6" stroke="#555"/>
+  <text x="172" y="345" text-anchor="middle" fill="#222" font-weight="bold">Li-Po cell</text>
+  <text x="172" y="360" text-anchor="middle" fill="#222">~36 x 63.5 x 5.8 mm (503562 class)</text>
+  <text x="172" y="375" text-anchor="middle" fill="#222">sits in PCB cut-out</text>
+  <!-- NFC coil -->
+  <rect x="76" y="196" width="192" height="130" rx="8" fill="none" stroke="#b3541e" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="172" y="216" text-anchor="middle" fill="#b3541e">NFC FPC coil + ferrite sheet</text>
+  <text x="172" y="230" text-anchor="middle" fill="#b3541e">behind battery, on rear cover (dashed)</text>
+
+  <!-- top band -->
+  <rect x="66" y="82" width="150" height="24" fill="#f4d35e" stroke="#333"/>
+  <text x="141" y="98" text-anchor="middle" fill="#111">Display + touch FPC connectors</text>
+  <rect x="66" y="116" width="70" height="34" fill="#dfe7fd" stroke="#333"/>
+  <text x="101" y="137" text-anchor="middle" fill="#111">Backlight drv</text>
+  <rect x="150" y="122" width="18" height="18" fill="#dfe7fd" stroke="#333"/>
+  <text x="174" y="135" fill="#fff">NFC tag IC</text>
+  <rect x="300" y="78" width="82" height="57" fill="#bde0fe" stroke="#333"/>
+  <text x="341" y="102" text-anchor="middle" fill="#111">BLE module</text>
+  <text x="341" y="116" text-anchor="middle" fill="#111">antenna at corner</text>
+  <rect x="240" y="74" width="146" height="8" fill="none" stroke="#fff" stroke-dasharray="3 3"/>
+  <text x="236" y="150" fill="#fff" font-size="10">copper keep-out under antenna</text>
+
+  <!-- right strip -->
+  <rect x="298" y="250" width="78" height="78" fill="#222" stroke="#000"/>
+  <text x="337" y="286" text-anchor="middle" fill="#fff">Main MCU</text>
+  <text x="337" y="300" text-anchor="middle" fill="#fff">~13 x 13 BGA</text>
+  <rect x="298" y="340" width="18" height="18" fill="#ffadad" stroke="#333"/>
+  <text x="322" y="353" fill="#fff">SE (3x3)</text>
+  <rect x="298" y="368" width="24" height="24" fill="#ffadad" stroke="#333" stroke-dasharray="3 2"/>
+  <text x="328" y="384" fill="#fff">SE #2 opt.</text>
+  <rect x="298" y="404" width="48" height="30" fill="#dfe7fd" stroke="#333"/>
+  <text x="352" y="423" fill="#fff">NOR</text>
+  <rect x="298" y="170" width="70" height="60" fill="#dfe7fd" stroke="#333"/>
+  <text x="333" y="197" text-anchor="middle" fill="#111">Load sw.</text>
+  <text x="333" y="211" text-anchor="middle" fill="#111">crystals</text>
+  <rect x="292" y="448" width="40" height="22" fill="#f4d35e" stroke="#333"/>
+  <text x="338" y="463" fill="#fff">Batt conn</text>
+  <rect x="298" y="482" width="26" height="18" fill="#dfe7fd" stroke="#333"/>
+  <text x="330" y="495" fill="#fff">Gauge</text>
+  <g fill="#f4d35e"><circle cx="304" cy="520" r="3"/><circle cx="314" cy="520" r="3"/><circle cx="324" cy="520" r="3"/><circle cx="304" cy="530" r="3"/><circle cx="314" cy="530" r="3"/><circle cx="324" cy="530" r="3"/></g>
+  <text x="334" y="529" fill="#fff">SWD pads</text>
+
+  <!-- bottom band -->
+  <circle cx="100" cy="585" r="24" fill="#cdb4db" stroke="#333"/>
+  <text x="100" y="589" text-anchor="middle" fill="#111">LRA</text>
+  <rect x="193" y="568" width="54" height="50" fill="#adb5bd" stroke="#222"/>
+  <text x="220" y="596" text-anchor="middle" fill="#111">USB-C</text>
+  <rect x="134" y="566" width="50" height="38" fill="#dfe7fd" stroke="#333"/>
+  <text x="159" y="589" text-anchor="middle" fill="#111">ESD/CC</text>
+  <rect x="258" y="566" width="122" height="38" fill="#dfe7fd" stroke="#333"/>
+  <text x="319" y="582" text-anchor="middle" fill="#111">Charger + 3V3</text>
+  <text x="319" y="596" text-anchor="middle" fill="#111">buck-boost + inductor</text>
+
+  <!-- buttons -->
+  <rect x="398" y="130" width="10" height="36" rx="3" fill="#444"/>
+  <text x="414" y="152" fill="#111">Power / lock</text>
+  <rect x="398" y="262" width="10" height="56" rx="3" fill="#c1121f"/>
+  <text x="414" y="288" fill="#111">CONFIRM</text>
+  <text x="414" y="302" fill="#111">(dedicated)</text>
+
+  <!-- dimensions -->
+  <line x1="40" y1="640" x2="400" y2="640" stroke="#111"/><text x="220" y="656" text-anchor="middle" fill="#111">~60 mm</text>
+  <line x1="24" y1="60" x2="24" y2="624" stroke="#111"/><text x="18" y="342" text-anchor="middle" fill="#111" transform="rotate(-90 18 342)">~94 mm</text>
+
+  <!-- section stack -->
+  <text x="500" y="90" font-size="13" font-weight="bold" fill="#111">Thickness stack (estimate)</text>
+  <g stroke="#333">
+    <rect x="500" y="110" width="250" height="47" fill="#bde0fe"/>
+    <rect x="500" y="157" width="250" height="6" fill="#e9ecef"/>
+    <rect x="500" y="163" width="150" height="70" fill="#c9ced6"/>
+    <rect x="656" y="163" width="94" height="10" fill="#2f7d4f"/>
+    <rect x="664" y="173" width="60" height="24" fill="#222"/>
+    <rect x="500" y="233" width="150" height="5" fill="#b3541e"/>
+    <rect x="500" y="238" width="250" height="14" fill="#e9ecef"/>
+  </g>
+  <text x="760" y="137" fill="#111">Cover lens + touch + LCD: ~3.9 mm</text>
+  <text x="760" y="163" fill="#111">Mid-frame / gap: ~0.5</text>
+  <text x="510" y="200" fill="#111">Battery 5.8 (+0.4 swell)</text>
+  <text x="760" y="184" fill="#111">PCB 0.8–1.0 + parts ~2</text>
+  <text x="760" y="226" fill="#111">Ferrite + coil: ~0.4</text>
+  <text x="760" y="249" fill="#111">Rear cover: ~1.2</text>
+  <text x="500" y="280" font-weight="bold" fill="#111">Total: about 12–12.5 mm</text>
+
+  <text x="500" y="320" font-size="13" font-weight="bold" fill="#111">Placement rules behind this concept</text>
+  <g fill="#222">
+    <text x="500" y="342">1. Battery and PCB share one layer (frame-shaped PCB) to</text>
+    <text x="514" y="356">keep thickness near 12 mm instead of ~15 mm stacked.</text>
+    <text x="500" y="376">2. BLE antenna in a top corner, away from battery, LCD</text>
+    <text x="514" y="390">metal frame and the user's palm.</text>
+    <text x="500" y="410">3. NFC coil on the rear cover with ferrite between coil</text>
+    <text x="514" y="424">and battery; phone taps the back.</text>
+    <text x="500" y="444">4. USB-C bottom centre; charger and inductor beside it,</text>
+    <text x="514" y="458">far from the antenna and from the secure element.</text>
+    <text x="500" y="478">5. MCU and secure element adjacent, on inner layers</text>
+    <text x="514" y="492">where possible; SWD pads internal only.</text>
+    <text x="500" y="512">6. Buttons on one long edge, side-actuated switches on</text>
+    <text x="514" y="526">the PCB edge (Panasonic EVQ-P7 class, 1.35 mm high).</text>
+  </g>
+  <text x="500" y="560" fill="#a00">Every dimension here must be re-derived from the chosen</text>
+  <text x="500" y="574" fill="#a00">parts' mechanical drawings in Phase 2.</text>
+</svg>

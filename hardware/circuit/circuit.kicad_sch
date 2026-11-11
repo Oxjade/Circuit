@@ -1,0 +1,18 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 7095e1cc-211c-4134-a375-75bfe2cffaf8)
+  (paper "A3")
+  (title_block
+    (title "Circuit main board")
+    (rev "A0-draft")
+    (comment 1 "Root sheet. Schematic capture has not started: see hardware/README.md")
+  )
+  (lib_symbols)
+  (text "CIRCUIT main board - planned sheet structure (capture not started)\n\n1  USB-C input, CC, ESD\n2  Charger, battery, fuel gauge\n3  3V3 buck-boost, load switches, backlight driver\n4  Main MCU (BLOCKED: gate G1)\n5  Secure element(s)\n6  Display and touch connectors\n7  BLE module\n8  NFC tag and antenna matching\n9  Haptics, buttons, debug, tamper\n\nNo sheet may be drawn from a pinout that was not read from the part's datasheet."
+    (at 30 40 0)
+    (effects (font (size 2.54 2.54)) (justify left top))
+    (uuid c97e8346-576e-4a76-ab66-6ec7b48f293c)
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
